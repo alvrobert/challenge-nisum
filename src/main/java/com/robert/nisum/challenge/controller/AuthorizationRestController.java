@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.validation.Valid;
+
 @Slf4j
 @RestController
 @RequestMapping(path = "/auth/v1")
@@ -25,7 +27,7 @@ public class AuthorizationRestController {
     }
 
     @PostMapping("/register")
-    public ResponseEntity<?> userRegister(@RequestBody UserRegisterDTO userRegisterDTO) throws NisumException {
+    public ResponseEntity<?> userRegister(@Valid @RequestBody UserRegisterDTO userRegisterDTO) throws NisumException {
         log.info("user-register | UserRegisterDto={}", userRegisterDTO.toString());
         return ResponseEntity.status(HttpStatus.CREATED).body(authorizationService.register(userRegisterDTO));
     }
