@@ -16,7 +16,6 @@ import javax.validation.constraints.Size;
 import java.util.List;
 
 @Data
-@Builder
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class UserRegisterDTO {
 
