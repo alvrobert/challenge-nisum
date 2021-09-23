@@ -4,7 +4,7 @@
 Proyecto ejemplo para postulación a Global Logic.
 
 ## Diagrama 
-![diagrama](doc/img/diagram.png)
+![diagrama](doc/img/nisum-challenge.png)
 
 # Evaluación: JAVA
 
