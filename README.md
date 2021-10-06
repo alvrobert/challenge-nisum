@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3e7cdd4b099240f98704e7393c8e10e9)](https://www.codacy.com/manual/fguaman/example-global-logic?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=fguaman/example-global-logic&amp;utm_campaign=Badge_Grade)
-# Example GLobalLogic
-Proyecto ejemplo para postulación a Global Logic.
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3e7cdd4b099240f98704e7393c8e10e9)](https://www.codacy.com/manual/fguaman/example-nisum?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=fguaman/example-nisum&amp;utm_campaign=Badge_Grade)
+# Example Nisum
+Proyecto ejemplo para postulación a Nisum.
 
 ## Diagrama 
 ![diagrama](doc/img/nisum-challenge.png)
